@@ -1,26 +1,82 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="">
-    <title></title>
+    <title>Assignment 4 - LESS</title>
     <meta name="description" content="">
-  </head>
-  <body>
-    <ul>
-      <li>Home</li>
-      <li>Menu</li>
-      <li>About Us</li>
-      <li>Order Now</li>
-    </ul>
-    <h1>Bob's Burgers</h1>
-    <button>Order Now</button>
-    <h2>World's Best Burgers</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-    <button>View Menu</button>
-    <h2>Dine-in or Take-out</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-    <button>Contact Us</button>
-  </body>
+
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Menu</li>
+            <li>About Us</li>
+            <li class="style">Order Now</li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h1>Bob's Burgers</h1>
+        <div class="center">
+            <img class="image-banner" src="img/logo.png" title="Bob's Burger Logo" alt="Bob's Burger Logo" />
+        </div>
+
+        <div class="center padding-top">
+            <button class="cta button1">Order Now</button>
+        </div>
+
+
+
+        <article>
+            <section class="section1">
+                <div class="flex1">
+                    <h2 class="font">World's Best <span>Burgers</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    <div class="center button2">
+                        <button>View Menu</button>
+                    </div>
+                </div>
+
+
+                <div class="center">
+                    <img class="image1" src="img/bobs-burger.png" title="Bob's Burger" alt="Bob's Burger" />
+                </div>
+            </section>
+
+
+            <section class="section2">
+                <div class="center">
+                    <img class="image2" src="img/bob-headshot.png" title="Bob's Headshot" alt="Bob's Headshot" />
+                </div>
+
+                <div class="flex2">
+                    <h2>Dine-in <span class="lowercase">or</span> <span>Take-out</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    <div class="center button3">
+                        <button>Contact Us</button>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+
+    <footer>
+        <img class="image3" src="img/logo.png" title="Bob's Burger Logo" alt="Bob's Burger Logo" />
+    </footer>
+
+
+</body>
+
 </html>
