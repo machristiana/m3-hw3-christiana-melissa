@@ -4,4 +4,4 @@
 I had no issues.
 
 ## Resources
-No outside resources were used.
+* [LESS Documentation](https://lesscss.org/#overview)
