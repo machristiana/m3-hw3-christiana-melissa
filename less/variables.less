@@ -1,0 +1,35 @@
+//out: false
+
+//colors
+@yellow: #f8df1f;
+@red: #ee252f;
+@black: #080801;
+@light-grey: #f3f3f3;
+@white: white;
+@font-color: #050500;
+
+//font
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-family: 'Roboto', sans-serif;
+
+
+
+.cta {
+    background-color: @yellow;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 4% 6%;
+    border-radius: 8px;
+    .font();
+}
+
+.style {
+    text-transform: uppercase;
+    color: @red;
+}
+
+.font {
+    font-family: @font-family;
+    font-weight: 500;
+    color: @font-color;
+}
